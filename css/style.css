@@ -1,0 +1,153 @@
+html, body{
+	height: 100%;
+}
+body{
+	background: scroll #1297b8 url(../img/bgp1.png) center top repeat-x;
+	font-family: 'Tahoma', sans-serif;
+  }
+a{
+	text-decoration: none;
+}
+.wrapper {
+	
+	 width: 1000px;
+	margin: 39px auto 0;
+	background: white;
+	box-shadow: 0 0 5px black;
+}
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.header{
+	color: #128aa7;
+}
+.logo{
+	float: left;
+	padding: 7px 30px 0;
+	position: relative;
+}
+
+  .right_side{
+	float: right;
+	position: relative;
+	height: 174px;
+	width: 500px;
+}
+   
+.contacts{
+	position: absolute;
+	top: 10px;
+	right: 35px;
+	width: 130px;
+	font-size: 12px;
+	line-height: 17px;
+}
+p.bold { font-weight:bold;}
+ 
+.contries{
+	position: absolute;
+	bottom: 10px;
+	right: 35px;
+	font-size: 10px;
+}
+.flag{
+	float: left;
+	margin: 0 10px;
+	text-align: center;
+}
+.flag a{
+	text-decoration: underline;
+  color: #128aa7;}
+  
+.pict {  
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+}
+
+.navigation  {
+		height: 40px;
+}
+.nav_panel{
+	background: #343434;
+	box-shadow: 0 0 5px black;
+	font-size: 14px;
+}
+.menu > li{
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0 23px; 
+}
+.menu > li > a{
+	display: block;
+	padding: 10px;
+	color: white;
+}
+.submenu{
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	background: #343434;
+	box-shadow: 0 0 5px black;
+}
+.submenu > li{
+	display: block;
+}
+.submenu > li > a{
+	display: block;
+	padding: 5px;
+	color: white;
+}
+.menu > li:hover > ul.submenu{
+display: block;}
+ 
+main {
+	margin: -5px auto 0;
+	font-size:0;
+	background: url(../img/main-bg.jpg) top center repeat-y;
+}
+h2 {   
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.left,
+.center,
+.right {
+color: #424c43;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.left {
+	padding: 0 15px 15px 15px;
+	width: 190px;
+	float: left;
+}
+ 
+.center {
+	padding: 0 15px 15px 0;
+	width: 550px;
+	float: left;
+}
+.right {
+	padding: 0 5px 15px 20px;
+	width: 190px;
+	float: left;
+}
+
+footer {
+	margin: 0 auto;
+	padding: 4px;
+	width: 1018px;
+	opacity: 0.8;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+}
